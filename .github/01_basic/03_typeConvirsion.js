@@ -24,3 +24,21 @@ in case of boolean empty string => false
 
 
 */
+const unique=Symbol('123');
+const unique2=Symbol('123');
+
+console.table([unique,unique2])  //although both are containing same value but their unique
+console.log(unique === unique2) //here the example and '===' check the value and also check the data type of the variable
+
+
+//Non primitive data type (object,array)
+const course=["bca","mca","btech"];
+
+const data={
+    Name: "Jagannath Sarkar",
+    Age: 22
+}
+
+const Myfun = function fun(){
+    console.log("Hello World");
+}
