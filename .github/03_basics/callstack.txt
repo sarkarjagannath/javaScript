@@ -1,0 +1,5 @@
+js code in 2 steps
+
+1:Execution Contexts:Glbal and function E.C
+2:Memory allocation Phase
+3:Execution Phase
