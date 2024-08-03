@@ -7,7 +7,7 @@ const mytotal = myNums.reduce(function(acc,curval){
 
 //using arrow function
 
-const mytotal2=myNums.reduce( (acc,curval)=>(acc+curval),0)
+const mytotal2=myNums.reduce((acc,curval)=>(acc+curval),0)
 console.log(mytotal);
 console.log(mytotal2);
 

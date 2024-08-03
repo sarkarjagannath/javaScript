@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and & DOM Element</title>
+</head>
+<body style="background-color: rgb(172, 206, 203);color:white">
+    <!-- <h1>hi</h1> -->
+
+</body>
+
+<script>
+
+const addElement = (text,bg_color) => {
+const div=document.createElement('div')
+console.log(div)
+div.className='main'
+div.id= Math.round(Math.random()*10+1)
+div.style.backgroundColor=bg_color
+div.style.height="20px"
+div.style.width="200px"
+div.style.padding="12px"
+
+// div.innerText="hi there this is jagannath"
+// div.innerText="hi there this is "  
+
+const textNode = document.createTextNode(text)
+div.appendChild(textNode)
+
+//adding div to the doccument
+
+document.body.appendChild(div)
+
+const textNode2=document.createElement("hi babe");
+body.appendChild(textNode2)
+document.body.appendChild(div)
+}
+
+addElement("This is Jagannath Sarkar","green")
+</script>
+
+</html>

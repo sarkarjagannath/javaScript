@@ -8,4 +8,8 @@ const course={
 
 const {courseInstructor:teacher}=course
 
-console.log(teacher)
+const {price:p}=course
+
+
+console.log(teacher,p)
+console.table([teacher,p])

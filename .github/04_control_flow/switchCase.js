@@ -1,9 +1,9 @@
-const month=2
+const month="f"
 switch (month) {
-    case 1:
+    case "1":
         console.log(`Jan`);
         break;
-    case 2:
+    case "f":
         console.log(`Feb`);
         break;
     case 3:
@@ -20,8 +20,11 @@ switch (month) {
 //turthy values:[] (empty array)
 
 // check for array and object in if statements
-const obj={};
+const obj={"a":"ad",
+    "b":"c"
+};
 
-if(!(Object.keys(obj).length)){
-    console.log(`This is an empty object`);
-}
+console.log(Object.values(obj).length);
+// if(!(Object.keys(obj).length)){
+//     console.log(`This is an empty object`);
+// }

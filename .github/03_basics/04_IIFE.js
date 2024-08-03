@@ -10,3 +10,6 @@ and resolve pollution from the global scope */
     console.log(`This is a arrow function`);  
 })();
 
+((argument)=>{
+    console.log(`hi ${argument}`);
+}) ("Jagannath");

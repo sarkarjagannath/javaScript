@@ -6,6 +6,10 @@ for (const ch of name) {
     // process.stdout.write(`${ch}`); //print without nextline
 
 }
+for (const ch in name) {
+    console.log(`${ch} : ${name[ch]}`);  //print the index values
+
+}
 
 //creating map in js
 const map = new Map()
@@ -19,5 +23,5 @@ for (const [key,values] of map) {
 }
 
 for (const key in map) {
-    console.log(key)  // it's doesn't show anything (Mam isn't iterable)
+    console.log(key)  // it's doesn't show anything (Map isn't iterable)
 }

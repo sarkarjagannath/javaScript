@@ -10,14 +10,15 @@ const User={
     course:"BCA",
     numbers:[9.2,9.1,8.08,8.27,9.33,9.14],
     islogged:true,
-    [symbol1]:"mykey"
+    [symbol1]:"mykey",
+    hi: ()=>(`Hi User`),
 }
 
 //Accessing the objects values using '.' and [] 
 
 /*
-console.log(User.name)  //this is the prefered method to do so
-console.log(User["name"]) 
+console.log(User.name)     //but we mostly use this way
+console.log(User["name"])  //this is the prefered method to do so
 console.log(User[symbol1])
 */
 
@@ -42,9 +43,10 @@ User.greeting3=function(){
     console.log(`Hi ${User.name}`);
 }
 
-
-console.log(User.greeting());   
-console.log(User.greeting2());   
-console.log(User.greeting3());   
+console.log(User.hi())
+User.greeting2()
+// console.log(User.greeting());   
+// console.log(User.greeting2());   
+// console.log(User.greeting3());   
 
 

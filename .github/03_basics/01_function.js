@@ -8,6 +8,7 @@ function loggin(userName){
 console.log(loggin("jagannath"))
 
 function sumOfunlimitedNumbers(...b){
+    // console.log(b); here b treated as a array
     sum=0;
     for(let i=0;i<b.length;i++){
         sum+=b[i];
